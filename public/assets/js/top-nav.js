@@ -1,0 +1,6 @@
+let top_navbar;
+
+top_navbar = `<div class="share-icon"><a href="https://t.me/LST4LAW"><i class="fa-brands fa-telegram"></i></a><a onclick='return _e("Head_Icons","Click","Whatsapp",5)' href="https://api.whatsapp.com/send?phone=9958760011" target="blank" data-original-title="WhatsApp 9958760011"><i class="fa-brands fa-whatsapp"></i></a><a href="tel:8130038836"><i class="fa-solid fa-phone"></i></a></div><div class="top-header"><div class="container-fluid"><div class="row d-flex align-items-center"><div class="col-lg-6"><p>CLAT'25: 7 Months Left! Join our LST Course now <a href="/course-detail.jsp?prodId=BLxaow8lOkE%3D&prodCategory=LST&prodGroup=Online%20Coaching&rt=&rl=" class="orange">Click Here</a></p></div><div class="col-lg-6 contact-details"><ul class="float-end"><li><a href="https://t.me/LST4LAW"><i><img src="/img/logos_telegram.svg"></i><b>Join Forum</b></a></li><li><a href="tel:8130038836"><i><img src="/img/bytesize_telephone.svg"></i><b>8130-038-836</b></a></li><li><a onclick="return _e('Head_Icons','Click','Whatsapp',5);" href="https://api.whatsapp.com/send?phone=9958760011" target="blank" data-original-title="WhatsApp 9958760011"><i><img src="/img/logos_whatsapp-icon.svg"></i><b>9958-760-011</b></a></li><li><a href="/contactus.jsp" class="me-0 px-0"><b>Contact</b></a></li></ul></div></div></div></div>`;
+
+
+document.write(top_navbar);
