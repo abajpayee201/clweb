@@ -10,6 +10,9 @@ import Faqs from "./Components/Faqs";
 function Ailet() {
     return (
         < >
+
+
+<div class="share-icon"><a href="https://t.me/LST4LAW"><i class="fa-brands fa-telegram"></i></a><a onclick="return _e(&quot;Head_Icons&quot;,&quot;Click&quot;,&quot;Whatsapp&quot;,5)" href="https://api.whatsapp.com/send?phone=9958760011" target="blank" data-original-title="WhatsApp 9958760011"><i class="fa-brands fa-whatsapp"></i></a><a href="tel:8130038836"><i class="fa-solid fa-phone"></i></a></div>
              <Top_header />
              <Header_region />
 

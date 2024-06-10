@@ -10,6 +10,9 @@ import Faqs from "./Components/Faqs";
 function Classroom_coaching() {
     return (
       < >
+
+<div class="share-icon"><a href="https://t.me/LST4LAW"><i class="fa-brands fa-telegram"></i></a><a onclick="return _e(&quot;Head_Icons&quot;,&quot;Click&quot;,&quot;Whatsapp&quot;,5)" href="https://api.whatsapp.com/send?phone=9958760011" target="blank" data-original-title="WhatsApp 9958760011"><i class="fa-brands fa-whatsapp"></i></a><a href="tel:8130038836"><i class="fa-solid fa-phone"></i></a></div>
+
       <Top_header />
       <Header_region />
 
@@ -96,7 +99,7 @@ function Classroom_coaching() {
                     <div class="single-testimonial-style3">
                         <div class="inner-content">
                             <div class="client-info">
-                                <div class="image"> <img src="assets/img/top-achievers/Pradhyot-Shah.jpg"/> </div>
+                                <div class="image"> <img src="/assets/img/top-achievers/Pradhyot-Shah.jpg"/> </div>
                                 <div class="title">
                                     CLAT - AIR <span>2</span>
                                 </div>
@@ -112,7 +115,7 @@ function Classroom_coaching() {
                     <div class="single-testimonial-style3">
                         <div class="inner-content">
                             <div class="client-info">
-                                <div class="image"> <img src="assets/img/top-achievers/Diya-Agrawal.jpg"/> </div>
+                                <div class="image"> <img src="/assets/img/top-achievers/Diya-Agrawal.jpg"/> </div>
                                 <div class="title">
                                     AILET - AIR <span>1</span>
                                 </div>
@@ -162,8 +165,8 @@ function Classroom_coaching() {
                 <!-- <div class="col-lg-5">
 <h3>What our students say</h3>
 <div class="row">
-  <div class="col-lg-6"><div class="reslt-videp"><img src="assets/img/result-image.png" class="img-fluid"></div></div>
-  <div class="col-lg-6 col-6"><div class="reslt-videp"><img src="assets/img/result-image1.png" class="img-fluid"></div></div>
+  <div class="col-lg-6"><div class="reslt-videp"><img src="/assets/img/result-image.png" class="img-fluid"></div></div>
+  <div class="col-lg-6 col-6"><div class="reslt-videp"><img src="/assets/img/result-image1.png" class="img-fluid"></div></div>
 </div>
 </div> --> */}
 
@@ -179,7 +182,7 @@ function Classroom_coaching() {
 
                 <div class="col-lg-4">
                     <div class="highlight">
-                        <img src="assets/img/trusted.svg"/>
+                        <img src="/assets/img/trusted.svg"/>
                         <h4>A Trusted Name with pioneer results</h4>
                         <p>With toppers in CLAT & AILET year after year, LST is the trusted name for law students across
                             the country for their CLAT preparation.</p>
@@ -188,7 +191,7 @@ function Classroom_coaching() {
 
                 <div class="col-lg-4">
                     <div class="highlight">
-                        <img src="assets/img/mentoring.svg"/>
+                        <img src="/assets/img/mentoring.svg"/>
                         <h4>Individual Attention and Mentoring</h4>
                         <p>At LST, the performance of every student counts. Our faculty members focus on the individual
                             needs of students and inspire and encourage them to reach their potential.</p>
@@ -197,7 +200,7 @@ function Classroom_coaching() {
 
                 <div class="col-lg-4">
                     <div class="highlight">
-                        <img src="assets/img/nationwide.svg"/>
+                        <img src="/assets/img/nationwide.svg"/>
                         <h4>Nationwide Test Series Program</h4>
                         <p>Conducted across 100+ locations, LST's Test Series is the only national-level program in the
                             CLAT-coaching industry (for both English and Hindi mediums).</p>
@@ -206,7 +209,7 @@ function Classroom_coaching() {
 
                 <div class="col-lg-4">
                     <div class="highlight">
-                        <img src="assets/img/legal-update.svg"/>
+                        <img src="/assets/img/legal-update.svg"/>
                         <h4>Legal Updates & Quizzes</h4>
                         <p>Our experts regularly update a series of articles, quizzes, and opinions on the most relevant
                             events happening around you to strengthen your GK.</p>
@@ -217,7 +220,7 @@ function Classroom_coaching() {
 
                 <div class="col-lg-4">
                     <div class="highlight">
-                        <img src="assets/img/help.svg"/>
+                        <img src="/assets/img/help.svg"/>
                         <h4>CL to Aid your CLAT Preparation</h4>
                         <p>myLST is a powerful online tool that provides an analytics-driven performance breakdown of
                             your tests. Along with exam schedules, online tests, GK, and weekly legal updates, myLST has
@@ -235,152 +238,241 @@ function Classroom_coaching() {
     </section>
 
     <section class="success">
-        <div class="container">
-            <h2>Our Testimonials</h2>
-            <div class="testmonials-pull">
+  <div class="container">
+    <h2>Our Testimonials</h2>
+    <div class="testmonials-pull">
 
-                <div class="suces slider">
+      <div class="suces slider slick-initialized slick-slider"><div class="slick-list draggable"><div class="slick-track" style={{opacity: "1", width: "4202px", transform: "translate3d(-1910px, 0px, 0px)"}}><div class="slick-slide slick-cloned" data-slick-index="-3" id="" aria-hidden="true" tabindex="-1" style={{width: "352px"}}><div><div class="success-story" style={{width: "100%", display: "inlineBlock"}}>
+          <p>I was a part of CL's classroom program here in Jayanagar Center. I started my preparation very late and was not regular with the course prep. I heavily depended on CL's content and mocks which played a major role in my preparation.</p>
+          <div class="author">
+            <img src="/assets/img/Rohit-Hebbar.webp"/>
+          </div>
+          <span>
+            <h5>Rohit Hebbar</h5>
+            <h6>AIR 11, AILET 2023</h6>
+          </span>
+        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="-2" id="" aria-hidden="true" tabindex="-1" style={{width: "352px"}}><div><div class="success-story" style={{width: "100%", display: "inlineBlock"}}>
+          <p>I was a part of CL's two-year classroom program in Chandigarh. CL's team not only helped me with great content and interesting classes but also guidance in defining the right path for my career through career counselling sessions. </p>
+          <div class="author">
+            <img src="/assets/img/Chahat-Bhambri.webp"/>
+          </div>
+          <span>
+            <h5>Chahat Bhambri</h5>
+            <h6>AIR 29, CLAT 2023</h6>
+          </span>
+        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="-1" id="" aria-hidden="true" tabindex="-1" style={{width: "352px"}}><div><div class="success-story" style={{width: "100%", display: "inlineBlock"}}>
+          <p>I I attended the online classes in 11th because of COVID and started preparing for the exam seriously in class 12th, under the two-year program at CL. I believe except one mock I've attempted all the mocks provided by CL.</p>
+          <div class="author">
+            <img src="/assets/img/Joy-Sanskar-Kalra.webp"/>
+          </div>
+          <span>
+            <h5>Joy Sanskar Kalra</h5>
+            <h6>AIR 14, CLAT 2023</h6>
+          </span>
+        </div></div></div><div class="slick-slide" data-slick-index="0" aria-hidden="true" style={{width: "352px"}} tabindex="-1"><div><div class="success-story" style={{width: "100%", display: "inlineBlock"}}>
+          <p>I was a part of CL's CR nuggets program that helped me structure my planning and my performance in CLAT and AILET. I attended all the online classes which covered most of the course and gave more than 40 CL's mocks before my final exams.</p>
+          <div class="author">
+            <img src="/assets/img/Navya-Nair.webp"/>
+          </div>
+          <span>
+            <h5>Navya Nair</h5>
+            <h6>AIR 6, CLAT 2023</h6>
+          </span>
+        </div></div></div><div class="slick-slide" data-slick-index="1" aria-hidden="true" style={{width: "352px"}} tabindex="-1"><div><div class="success-story" style={{width: "100%", display: "inlineBlock"}}>
+          <p>I was a part of CL's classroom program here in Jayanagar Center. I started my preparation very late and was not regular with the course prep. I heavily depended on CL's content and mocks which played a major role in my preparation.</p>
+          <div class="author">
+            <img src="/assets/img/Rohit-Hebbar.webp"/>
+          </div>
+          <span>
+            <h5>Rohit Hebbar</h5>
+            <h6>AIR 11, AILET 2023</h6>
+          </span>
+        </div></div></div><div class="slick-slide slick-current slick-active" data-slick-index="2" aria-hidden="false" style={{width: "352px"}}><div><div class="success-story" style={{width: "100%", display: "inlineBlock"}}>
+          <p>I was a part of CL's two-year classroom program in Chandigarh. CL's team not only helped me with great content and interesting classes but also guidance in defining the right path for my career through career counselling sessions. </p>
+          <div class="author">
+            <img src="/assets/img/Chahat-Bhambri.webp"/>
+          </div>
+          <span>
+            <h5>Chahat Bhambri</h5>
+            <h6>AIR 29, CLAT 2023</h6>
+          </span>
+        </div></div></div><div class="slick-slide slick-active" data-slick-index="3" aria-hidden="false" style={{width: "352px"}}><div><div class="success-story" style={{width: "100%", display: "inlineBlock"}}>
+          <p>I I attended the online classes in 11th because of COVID and started preparing for the exam seriously in class 12th, under the two-year program at CL. I believe except one mock I've attempted all the mocks provided by CL.</p>
+          <div class="author">
+            <img src="/assets/img/Joy-Sanskar-Kalra.webp"/>
+          </div>
+          <span>
+            <h5>Joy Sanskar Kalra</h5>
+            <h6>AIR 14, CLAT 2023</h6>
+          </span>
+        </div></div></div><div class="slick-slide slick-cloned slick-active" data-slick-index="4" id="" aria-hidden="false" tabindex="-1" style={{width: "352px"}}><div><div class="success-story" style={{width: "100%", display: "inlineBlock"}}>
+          <p>I was a part of CL's CR nuggets program that helped me structure my planning and my performance in CLAT and AILET. I attended all the online classes which covered most of the course and gave more than 40 CL's mocks before my final exams.</p>
+          <div class="author">
+            <img src="/assets/img/Navya-Nair.webp"/>
+          </div>
+          <span>
+            <h5>Navya Nair</h5>
+            <h6>AIR 6, CLAT 2023</h6>
+          </span>
+        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="5" id="" aria-hidden="true" tabindex="-1" style={{width: "352px"}}><div><div class="success-story" style={{width: "100%", display: "inlineBlock"}}>
+          <p>I was a part of CL's classroom program here in Jayanagar Center. I started my preparation very late and was not regular with the course prep. I heavily depended on CL's content and mocks which played a major role in my preparation.</p>
+          <div class="author">
+            <img src="/assets/img/Rohit-Hebbar.webp"/>
+          </div>
+          <span>
+            <h5>Rohit Hebbar</h5>
+            <h6>AIR 11, AILET 2023</h6>
+          </span>
+        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="6" id="" aria-hidden="true" tabindex="-1" style={{width: "352px"}}><div><div class="success-story" style={{width: "100%", display: "inlineBlock"}}>
+          <p>I was a part of CL's two-year classroom program in Chandigarh. CL's team not only helped me with great content and interesting classes but also guidance in defining the right path for my career through career counselling sessions. </p>
+          <div class="author">
+            <img src="/assets/img/Chahat-Bhambri.webp"/>
+          </div>
+          <span>
+            <h5>Chahat Bhambri</h5>
+            <h6>AIR 29, CLAT 2023</h6>
+          </span>
+        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="7" id="" aria-hidden="true" tabindex="-1" style={{width: "352px"}}><div><div class="success-story" style={{width: "100%", display: "inlineBlock"}}>
+          <p>I I attended the online classes in 11th because of COVID and started preparing for the exam seriously in class 12th, under the two-year program at CL. I believe except one mock I've attempted all the mocks provided by CL.</p>
+          <div class="author">
+            <img src="/assets/img/Joy-Sanskar-Kalra.webp"/>
+          </div>
+          <span>
+            <h5>Joy Sanskar Kalra</h5>
+            <h6>AIR 14, CLAT 2023</h6>
+          </span>
+        </div></div></div></div></div></div>
+    </div>
+  </div>
+</section>
 
-                    <div class="success-story">
-                        <p>I was a part of CL's CR nuggets program that helped me structure my planning and my
-                            performance in CLAT and AILET. I attended all the online classes which covered most of the
-                            course and gave more than 40 CL's mocks before my final
-                            exams.</p>
-                        <div class="author">
-                            <img src="assets/img/Navya-Nair.webp"/>
-                        </div>
-                        <span>
-                            <h5>Navya Nair</h5>
-                            <h6>AIR 6, CLAT 2023</h6>
-                        </span>
-                    </div>
 
-                    <div class="success-story">
-                        <p>I was a part of CL's classroom program here in Jayanagar Center. I started my preparation
-                            very late and was not regular with the course prep. I heavily depended on CL's content and
-                            mocks which played a major role in my preparation.</p>
-                        <div class="author">
-                            <img src="assets/img/Rohit-Hebbar.webp"/>
-                        </div>
-                        <span>
-                            <h5>Rohit Hebbar</h5>
-                            <h6>AIR 11, AILET 2023</h6>
-                        </span>
-                    </div>
 
-                    <div class="success-story">
-                        <p>I was a part of CL's two-year classroom program in Chandigarh. CL's team not only helped me
-                            with great content and interesting classes but also guidance in defining the right path for
-                            my career through career counselling sessions.
-                        </p>
-                        <div class="author">
-                            <img src="assets/img/Chahat-Bhambri.webp"/>
-                        </div>
-                        <span>
-                            <h5>Chahat Bhambri</h5>
-                            <h6>AIR 29, CLAT 2023</h6>
-                        </span>
-                    </div>
 
-                    <div class="success-story">
-                        <p>I I attended the online classes in 11th because of COVID and started preparing for the exam
-                            seriously in class 12th, under the two-year program at CL. I believe except one mock I've
-                            attempted all the mocks provided by CL.</p>
-                        <div class="author">
-                            <img src="assets/img/Joy-Sanskar-Kalra.webp"/>
-                        </div>
-                        <span>
-                            <h5>Joy Sanskar Kalra</h5>
-                            <h6>AIR 14, CLAT 2023</h6>
-                        </span>
-                    </div>
+<section class="toppers-talk bg-grey">
+  <div class="container">
+    <h2>Toppers Talk</h2>
+    {/* <!-- <p class="withd"></p> --> */}
 
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="toppers-talk bg-grey">
-        <div class="container">
-            <h2>Toppers Talk</h2>
-            {/* <!-- <p class="withd"></p> --> */}
-
-            <div class="testmonials-pull">
-                <div class="regular-mentorss slider">
-
-                    <div class="toppers">
+    <div class="testmonials-pull">
+      <div class="regular-mentorss slider slick-initialized slick-slider"><button class="slick-prev slick-arrow" aria-label="Previous" type="button" >Previous</button><div class="slick-list draggable"><div class="slick-track" style={{opacity: "1", width: "7258px", transform: "translate3d(-1146px, 0px, 0px)"}}><div class="slick-slide slick-cloned" data-slick-index="-3" id="" aria-hidden="true" tabindex="-1" style={{width: "352px"}}><div><div class="toppers" style={{width: "100%", display: "inlineBlock"}}>
+  <div class="video-frame">
+<div class="youtube-player" data-id="JaLtTLOggRE"><div data-id="JaLtTLOggRE"><img src="https://i.ytimg.com/vi/JaLtTLOggRE/hqdefault.jpg"/><div class="play"></div></div></div>
+</div>
+<h3>Arush Sarma </h3>
+<h5>AIR 44 - CLAT 2024</h5>
+</div></div></div><div class="slick-slide slick-cloned" data-slick-index="-2" id="" aria-hidden="true" tabindex="-1" style={{width: "352px"}}><div><div class="toppers" style={{width: "100%", display: "inlineBlock"}}>
+  <div class="video-frame">
+<div class="youtube-player" data-id="15KxyyjjtAA"><div data-id="15KxyyjjtAA"><img src="https://i.ytimg.com/vi/15KxyyjjtAA/hqdefault.jpg"/><div class="play"></div></div></div>
+</div>
+<h3>Manya Agarwal</h3>
+<h5>AIR 35 - CLAT 2024</h5>
+</div></div></div><div class="slick-slide slick-cloned" data-slick-index="-1" id="" aria-hidden="true" tabindex="-1" style={{width: "352px"}}><div><div class="toppers" style={{width: "100%", display: "inlineBlock"}}>
+  <div class="video-frame">
+<div class="youtube-player" data-id="nqZm0_MlNys"><div data-id="nqZm0_MlNys"><img src="https://i.ytimg.com/vi/nqZm0_MlNys/hqdefault.jpg"/><div class="play"></div></div></div>
+</div>
+<h3>Tvesha Chauhan</h3>
+<h5>AIR 77 - CLAT 2024</h5>
+</div></div></div><div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style={{width: "352px"}}><div><div class="toppers" style={{width: "100%", display: "inlineBlock"}}>      
+            <div class="video-frame">
+              <div class="youtube-player" data-id="LZhL-Qj0Hrs"><div data-id="LZhL-Qj0Hrs"><img src="https://i.ytimg.com/vi/LZhL-Qj0Hrs/hqdefault.jpg"/><div class="play"></div></div></div>
+              </div>
+          <h3>Pradhyot Shah</h3>
+          <h5>AIR 2 - CLAT 2024</h5>
+        </div></div></div><div class="slick-slide slick-active" data-slick-index="1" aria-hidden="false" style={{width: "352px"}}><div><div class="toppers" style={{width: "100%", display: "inlineBlock"}}>           
+            <div class="video-frame">
+              <div class="youtube-player" data-id="jYOr4XvNepU"><div data-id="jYOr4XvNepU"><img src="https://i.ytimg.com/vi/jYOr4XvNepU/hqdefault.jpg"/><div class="play"></div></div></div>
+              </div>
+          <h3>Nandita Matolli</h3>
+          <h5>AIR 3 - AILET 2024</h5>
+        </div></div></div><div class="slick-slide slick-active" data-slick-index="2" aria-hidden="false" style={{width: "352px"}}><div><div class="toppers" style={{width: "100%", display: "inlineBlock"}}>          
+            <div class="video-frame">
+              <div class="youtube-player" data-id="xOQ8M4vuBZQ"><div data-id="xOQ8M4vuBZQ"><img src="https://i.ytimg.com/vi/xOQ8M4vuBZQ/hqdefault.jpg"/><div class="play"></div></div></div>
+              </div>
+          <h3>Amlan Panda</h3>
+          <h5>AIR 30 - CLAT 2024</h5>
+        </div></div></div><div class="slick-slide" data-slick-index="3" aria-hidden="true" tabindex="-1" style={{width: "352px"}}><div><div class="toppers" style={{width: "100%", display: "inlineBlock"}}>
+          <div class="video-frame">
+<div class="youtube-player" data-id="o2H7RJ_QnsI"><div data-id="o2H7RJ_QnsI"><img src="https://i.ytimg.com/vi/o2H7RJ_QnsI/hqdefault.jpg"/><div class="play"></div></div></div>
+</div>
+<h3>Preeyal Seghal</h3>
+<h5>AIR 12 - AILET 2024</h5>
+</div></div></div><div class="slick-slide" data-slick-index="4" aria-hidden="true" tabindex="-1" style={{width: "352px"}}><div><div class="toppers" style={{width: "100%", display: "inlineBlock"}}>
                         <div class="video-frame">
-                            <div class="youtube-player" data-id="LZhL-Qj0Hrs"></div>
-                        </div>
-                        <h3>Pradhyot Shah</h3>
-                        <h5>AIR 2 - CLAT 2024</h5>
-                    </div>
-
-                    <div class="toppers">
+              <div class="youtube-player" data-id="TJ394CVT-9M"><div data-id="TJ394CVT-9M"><img src="https://i.ytimg.com/vi/TJ394CVT-9M/hqdefault.jpg"/><div class="play"></div></div></div>
+              </div>
+          <h3>Mantrana Mahi Agarwal </h3>
+          <h5>AIR 19 - AILET 2024</h5>
+        </div></div></div><div class="slick-slide" data-slick-index="5" aria-hidden="true" tabindex="-1" style={{width: "352px"}}><div><div class="toppers" style={{width: "100%", display: "inlineBlock"}}>
+  <div class="video-frame">
+<div class="youtube-player" data-id="JaLtTLOggRE"><div data-id="JaLtTLOggRE"><img src="https://i.ytimg.com/vi/JaLtTLOggRE/hqdefault.jpg"/><div class="play"></div></div></div>
+</div>
+<h3>Arush Sarma </h3>
+<h5>AIR 44 - CLAT 2024</h5>
+</div></div></div><div class="slick-slide" data-slick-index="6" aria-hidden="true" tabindex="-1" style={{width: "352px"}}><div><div class="toppers" style={{width: "100%", display: "inlineBlock"}}>
+  <div class="video-frame">
+<div class="youtube-player" data-id="15KxyyjjtAA"><div data-id="15KxyyjjtAA"><img src="https://i.ytimg.com/vi/15KxyyjjtAA/hqdefault.jpg"/><div class="play"></div></div></div>
+</div>
+<h3>Manya Agarwal</h3>
+<h5>AIR 35 - CLAT 2024</h5>
+</div></div></div><div class="slick-slide" data-slick-index="7" aria-hidden="true" tabindex="-1" style={{width: "352px"}}><div><div class="toppers" style={{width: "100%", display: "inlineBlock"}}>
+  <div class="video-frame">
+<div class="youtube-player" data-id="nqZm0_MlNys"><div data-id="nqZm0_MlNys"><img src="https://i.ytimg.com/vi/nqZm0_MlNys/hqdefault.jpg"/><div class="play"></div></div></div>
+</div>
+<h3>Tvesha Chauhan</h3>
+<h5>AIR 77 - CLAT 2024</h5>
+</div></div></div><div class="slick-slide slick-cloned" data-slick-index="8" id="" aria-hidden="true" tabindex="-1" style={{width: "352px"}}><div><div class="toppers" style={{width: "100%", display: "inlineBlock"}}>      
+            <div class="video-frame">
+              <div class="youtube-player" data-id="LZhL-Qj0Hrs"><div data-id="LZhL-Qj0Hrs"><img src="https://i.ytimg.com/vi/LZhL-Qj0Hrs/hqdefault.jpg"/><div class="play"></div></div></div>
+              </div>
+          <h3>Pradhyot Shah</h3>
+          <h5>AIR 2 - CLAT 2024</h5>
+        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="9" id="" aria-hidden="true" tabindex="-1" style={{width: "352px"}}><div><div class="toppers" style={{width: "100%", display: "inlineBlock"}}>           
+            <div class="video-frame">
+              <div class="youtube-player" data-id="jYOr4XvNepU"><div data-id="jYOr4XvNepU"><img src="https://i.ytimg.com/vi/jYOr4XvNepU/hqdefault.jpg"/><div class="play"></div></div></div>
+              </div>
+          <h3>Nandita Matolli</h3>
+          <h5>AIR 3 - AILET 2024</h5>
+        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="10" id="" aria-hidden="true" tabindex="-1" style={{width: "352px"}}><div><div class="toppers" style={{width: "100%", display: "inlineBlock"}}>          
+            <div class="video-frame">
+              <div class="youtube-player" data-id="xOQ8M4vuBZQ"><div data-id="xOQ8M4vuBZQ"><img src="https://i.ytimg.com/vi/xOQ8M4vuBZQ/hqdefault.jpg"/><div class="play"></div></div></div>
+              </div>
+          <h3>Amlan Panda</h3>
+          <h5>AIR 30 - CLAT 2024</h5>
+        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="11" id="" aria-hidden="true" tabindex="-1" style={{width: "352px"}}><div><div class="toppers" style={{width: "100%", display: "inlineBlock"}}>
+          <div class="video-frame">
+<div class="youtube-player" data-id="o2H7RJ_QnsI"><div data-id="o2H7RJ_QnsI"><img src="https://i.ytimg.com/vi/o2H7RJ_QnsI/hqdefault.jpg"/><div class="play"></div></div></div>
+</div>
+<h3>Preeyal Seghal</h3>
+<h5>AIR 12 - AILET 2024</h5>
+</div></div></div><div class="slick-slide slick-cloned" data-slick-index="12" id="" aria-hidden="true" tabindex="-1" style={{width: "352px"}}><div><div class="toppers" style={{width: "100%", display: "inlineBlock"}}>
                         <div class="video-frame">
-                            <div class="youtube-player" data-id="jYOr4XvNepU"></div>
-                        </div>
-                        <h3>Nandita Matolli</h3>
-                        <h5>AIR 3 - AILET 2024</h5>
-                    </div>
-
-                    <div class="toppers">
-                        <div class="video-frame">
-                            <div class="youtube-player" data-id="xOQ8M4vuBZQ"></div>
-                        </div>
-                        <h3>Amlan Panda</h3>
-                        <h5>AIR 30 - CLAT 2024</h5>
-                    </div>
-
-                    <div class="toppers">
-                        <div class="video-frame">
-                            <div class="youtube-player" data-id="o2H7RJ_QnsI"></div>
-                        </div>
-                        <h3>Preeyal Seghal</h3>
-                        <h5>AIR 12 - AILET 2024</h5>
-                    </div>
-
-                    <div class="toppers">
-                        <div class="video-frame">
-                            <div class="youtube-player" data-id="TJ394CVT-9M"></div>
-                        </div>
-                        <h3>Mantrana Mahi Agarwal </h3>
-                        <h5>AIR 19 - AILET 2024</h5>
-                    </div>
-
-
-
-                    <div class="toppers">
-                        <div class="video-frame">
-                            <div class="youtube-player" data-id="JaLtTLOggRE"></div>
-                        </div>
-                        <h3>Arush Sarma </h3>
-                        <h5>AIR 44 - CLAT 2024</h5>
-                    </div>
-
-                    <div class="toppers">
-                        <div class="video-frame">
-                            <div class="youtube-player" data-id="15KxyyjjtAA"></div>
-                        </div>
-                        <h3>Manya Agarwal</h3>
-                        <h5>AIR 35 - CLAT 2024</h5>
-                    </div>
-
-                    <div class="toppers">
-                        <div class="video-frame">
-                            <div class="youtube-player" data-id="nqZm0_MlNys"></div>
-                        </div>
-                        <h3>Tvesha Chauhan</h3>
-                        <h5>AIR 77 - CLAT 2024</h5>
-                    </div>
-
-
-
-                </div>
-            </div>
-        </div>
-    </section>
-
+              <div class="youtube-player" data-id="TJ394CVT-9M"><div data-id="TJ394CVT-9M"><img src="https://i.ytimg.com/vi/TJ394CVT-9M/hqdefault.jpg"/><div class="play"></div></div></div>
+              </div>
+          <h3>Mantrana Mahi Agarwal </h3>
+          <h5>AIR 19 - AILET 2024</h5>
+        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="13" id="" aria-hidden="true" tabindex="-1" style={{width: "352px"}}><div><div class="toppers" style={{width: "100%", display: "inlineBlock"}}>
+  <div class="video-frame">
+<div class="youtube-player" data-id="JaLtTLOggRE"><div data-id="JaLtTLOggRE"><img src="https://i.ytimg.com/vi/JaLtTLOggRE/hqdefault.jpg"/><div class="play"></div></div></div>
+</div>
+<h3>Arush Sarma </h3>
+<h5>AIR 44 - CLAT 2024</h5>
+</div></div></div><div class="slick-slide slick-cloned" data-slick-index="14" id="" aria-hidden="true" tabindex="-1" style={{width: "352px"}}><div><div class="toppers" style={{width: "100%", display: "inlineBlock"}}>
+  <div class="video-frame">
+<div class="youtube-player" data-id="15KxyyjjtAA"><div data-id="15KxyyjjtAA"><img src="https://i.ytimg.com/vi/15KxyyjjtAA/hqdefault.jpg"/><div class="play"></div></div></div>
+</div>
+<h3>Manya Agarwal</h3>
+<h5>AIR 35 - CLAT 2024</h5>
+</div></div></div><div class="slick-slide slick-cloned" data-slick-index="15" id="" aria-hidden="true" tabindex="-1" style={{width: "352px"}}><div><div class="toppers" style={{width: "100%", display: "inlineBlock"}}>
+  <div class="video-frame">
+<div class="youtube-player" data-id="nqZm0_MlNys"><div data-id="nqZm0_MlNys"><img src="https://i.ytimg.com/vi/nqZm0_MlNys/hqdefault.jpg"/><div class="play"></div></div></div>
+</div>
+<h3>Tvesha Chauhan</h3>
+<h5>AIR 77 - CLAT 2024</h5>
+</div></div></div></div></div><button class="slick-next slick-arrow" aria-label="Next" type="button" >Next</button></div>
+    </div>
+  </div>
+</section>
 
 
 
