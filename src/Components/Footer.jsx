@@ -1,6 +1,18 @@
 function Footer() {
     return (
         < >
+
+
+            <a
+                id="back-to-top"
+                href="#"
+                className=""
+                role="button"
+                style={{ display: "inline" }}
+            >
+                <span className="fa fa-angle-up" />
+            </a>
+
             <section className="footer-top">
                 <div className="container">
                     <div className="row d-flex align-items-center">
@@ -53,40 +65,40 @@ function Footer() {
                             </form>
                         </div>
                     </div>
-                    <hr/>
-                        <div className="row copyright">
-                            <div className="col-lg-5">
-                                <p>© CL Educate Ltd. All Rights Reserved.</p>
-                            </div>
-                            <div className="col-lg-3">
-                                <ul className="nav d-flex justify-content-center justify-content-md-start">
-                                    <li>
-                                        <a href="https://www.instagram.com/lst4law/" target="_blank">
-                                            <i className="fa-brands fa-instagram">
-                                            </i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.youtube.com/@lawentrance6500" target="_blank">
-                                            <i className="fa-brands fa-youtube">
-                                            </i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://t.me/LST4LAW" target="_blank">
-                                            <i className="fa-brands fa-telegram"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div className="col-lg-4">
-                                <ul className="nav d-flex justify-content-center justify-content-md-end">
-                                    <li><a href="/terms-conditions.html">Terms</a></li>
-                                    <li><a href="/privacy.html">Privacy</a></li>
-                                    <li><a href="/sitemap.html">Sitemap</a></li>
-                                </ul>
-                            </div>
+                    <hr />
+                    <div className="row copyright">
+                        <div className="col-lg-5">
+                            <p>© CL Educate Ltd. All Rights Reserved.</p>
                         </div>
+                        <div className="col-lg-3">
+                            <ul className="nav d-flex justify-content-center justify-content-md-start">
+                                <li>
+                                    <a href="https://www.instagram.com/lst4law/" target="_blank">
+                                        <i className="fa-brands fa-instagram">
+                                        </i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/@lawentrance6500" target="_blank">
+                                        <i className="fa-brands fa-youtube">
+                                        </i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://t.me/LST4LAW" target="_blank">
+                                        <i className="fa-brands fa-telegram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="col-lg-4">
+                            <ul className="nav d-flex justify-content-center justify-content-md-end">
+                                <li><a href="/terms-conditions.html">Terms</a></li>
+                                <li><a href="/privacy.html">Privacy</a></li>
+                                <li><a href="/sitemap.html">Sitemap</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </section>
 

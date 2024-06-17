@@ -34,7 +34,7 @@ function Header_region() {
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">All Programs</a>
                                     <ul class="dropdown-menu multi-level" aria-labelledby="navbarDropdown">
                                         <li><Link class="dropdown-item" to="/classroom-coaching/">Classroom Coaching</Link></li>
-                                        <li><a class="dropdown-item" href="/online-coaching/">Online Coaching</a></li>
+                                        <li><Link class="dropdown-item" to="/online-coaching/">Online Coaching</Link></li>
                                         <li><a class="dropdown-item" href="/study-material/">Books &amp; Materials</a></li>
                                         <li><a class="dropdown-item" href="/test-series/">Test Series</a></li>
                                     </ul>

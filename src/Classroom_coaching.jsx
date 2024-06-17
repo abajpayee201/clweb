@@ -475,61 +475,8 @@ function Classroom_coaching() {
 </section>
 
 
-
-    {/* <!-- ********FAQs*********** --> */}
-    <section class="faqs">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <h2 class="text-center">Frequently asked questions</h2>
-                    {/* <!-- <h3>Everything you need to know about the product and billing.</h3> --> */}
-
-                    <div class="accordion" id="accordionExample">
-
-
-
-
-
-
-
-                        <div class='accordion-item'>
-                            <h2 class='accordion-header'><button class='accordion-button collapsed' type='button'
-                                    data-bs-toggle='collapse' data-bs-target='#collapse115' aria-expanded='true'
-                                    aria-controls='collapse115'>Who should opt for CL-LST's CLAT coaching
-                                    classes?</button></h2>
-                            <div id='collapse115' class='accordion-collapse collapse'
-                                data-bs-parent='#accordionExample'>
-                                <div class='accordion-body'>LST's Classroom coaching programs have been specifically
-                                    designed to facilitate CLAT/ AILET preparation for different kinds of aspirants.
-                                    LST-Span is a two-year program (ideal for Class X students), LST Plus is a one-year
-                                    program (ideal for class XI students), and LST Express is a crash course meant for
-                                    taking a few months before the test. The 8-10 month-long LST Bullet program
-                                    streamlines students who are retaking CLAT/AILET.</div>
-                            </div>
-                        </div>
-                        <div class='accordion-item'>
-                            <h2 class='accordion-header'><button class='accordion-button collapsed' type='button'
-                                    data-bs-toggle='collapse' data-bs-target='#collapse116' aria-expanded='true'
-                                    aria-controls='collapse116'>What is a typical CLAT coaching session like?</button>
-                            </h2>
-                            <div id='collapse116' class='accordion-collapse collapse'
-                                data-bs-parent='#accordionExample'>
-                                <div class='accordion-body'>A typical LST session for CLAT is conducted for two hours.
-                                    The students are acquainted with the basic concepts of the topic at hand, with the
-                                    help of examples. A lot of emphasis is laid on practice and mock tests, which are
-                                    considered the key to cracking competitive exams. Class exercises are handed over to
-                                    students, and are followed by rigorous discussions.</div>
-                            </div>
-                        </div>
-                        
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+   <Faqs f="Classroom" />
+    
     <section class="free-assesment text-center bg-grey">
         <div class="container">
 

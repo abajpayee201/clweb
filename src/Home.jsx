@@ -2,15 +2,21 @@ import Header_region from "./Components/Header_region";
 import Banner from "./Components/Banner";
 import Top_header from "./Components/Top_header";
 import Footer from "./Components/Footer";
-import Faqs from "./Components/Faqs";
 
+import getFaqsAPI from "./Services";
+
+import Faqs from "./Components/Faqs";
+import { useEffect } from "react";
+import { useState } from "react";
 
 
 function Home() {
+ 
+ 
   return (
     < >
 
-<div class="share-icon"><a href="https://t.me/LST4LAW"><i class="fa-brands fa-telegram"></i></a><a onclick="return _e(&quot;Head_Icons&quot;,&quot;Click&quot;,&quot;Whatsapp&quot;,5)" href="https://api.whatsapp.com/send?phone=9958760011" target="blank" data-original-title="WhatsApp 9958760011"><i class="fa-brands fa-whatsapp"></i></a><a href="tel:8130038836"><i class="fa-solid fa-phone"></i></a></div>
+      <div class="share-icon"><a href="https://t.me/LST4LAW"><i class="fa-brands fa-telegram"></i></a><a onclick="return _e(&quot;Head_Icons&quot;,&quot;Click&quot;,&quot;Whatsapp&quot;,5)" href="https://api.whatsapp.com/send?phone=9958760011" target="blank" data-original-title="WhatsApp 9958760011"><i class="fa-brands fa-whatsapp"></i></a><a href="tel:8130038836"><i class="fa-solid fa-phone"></i></a></div>
       {/* <Top_header /> */}
       <Header_region />
       <Banner />
@@ -456,353 +462,353 @@ function Home() {
 
 
       <section class="why-choose">
-<div class="container">
-<h5 class="brand-orange">Why Us?</h5>
-<h2>Student Testimonials</h2>
-<p>We choose our students to speak for us.</p>
+        <div class="container">
+          <h5 class="brand-orange">Why Us?</h5>
+          <h2>Student Testimonials</h2>
+          <p>We choose our students to speak for us.</p>
 
-<div class="testmonials-pull">
-<div class="choose-why slider slick-initialized slick-slider"><button class="slick-prev slick-arrow" aria-label="Previous" type="button" >Previous</button><div class="slick-list draggable" style={{padding: "0px 120px"}}><div class="slick-track" style={{opacity: "1", width: "6840px", transform: "translate3d(-2052px, 0px, 0px)"}}><div class="slick-slide slick-cloned" data-slick-index="-4" id="" aria-hidden="true" tabindex="-1" style={{width: "312px"}}><div><div class="single-testimonial-style3" style={{width: "100%", display: "inlineBlock"}}>
-<div class="open-div">
-<p>I always looked forward to the Quant &amp; English classes of CL-LST. The faculty helped us to enjoy the
-preparation process rather than just cracking an exam. It helped me keep my cool for the AILET exam even
-when my CLAT exam did not go as I expected.</p>
-</div>
-<div class="inner-content">
-<div class="client-info">
-<div class="image"> <img src="assets/img/top-achievers/Nandita-Matolli.webp"/> </div>
-<div class="title">
-AILET- AIR <span>3</span>
-</div>
-<h3>Nandita Matolli </h3>
-<p><strong>CL Id - 30661355</strong></p>
-</div>
-<div></div>
-</div>
-</div></div></div><div class="slick-slide slick-cloned" data-slick-index="-3" id="" aria-hidden="true" tabindex="-1" style={{width: "312px"}}><div><div class="single-testimonial-style3" style={{width: "100%", display: "inlineBlock"}}>
-<div class="open-div">
-<p>I took the 2-year online course with LST. The faculty and the comprehensive study material, especially
-monthly GK magazines, helped me a lot. Attempting mocks regularly &amp; comprehensively analyzing them
-contributed to 25-40% growth in my marks. It reflected in the exam as well.</p>
-</div>
-<div class="inner-content">
-<div class="client-info">
-<div class="image"> <img src="assets/img/top-achievers/Aanya-Dhandha.webp"/> </div>
-<div class="title">
-AILET- AIR <span>4</span>
-</div>
-<h3>Aanya Dhandha </h3>
-<p><strong>CL Id - 11947087</strong></p>
-</div>
-<div></div>
-</div>
-</div></div></div><div class="slick-slide slick-cloned" data-slick-index="-2" id="" aria-hidden="true" tabindex="-1" style={{width: "312px"}}><div><div class="single-testimonial-style3" style={{width: "100%", display: "inlineBlock"}}>
-<div class="open-div">
-<p>Law Entrance Examinations require consistent practice, clarity on approach to problem-solving, and
-adequate guidance. With each mock I attempted, I nurtured the habit of problem-solving from the
-examiner's perspective. CL-LST faculties were always there to guide me during this process.</p>
-</div>
-<div class="inner-content">
-<div class="client-info">
-<div class="image"> <img src="assets/img/top-achievers/Divas-Upadhyay.webp"/> </div>
-<div class="title">
-AILET- AIR <span>6</span>
-</div>
-<h3>Divas Upadhyay</h3>
-<p><strong>CL Id - 11901292</strong></p>
-</div>
-<div></div>
-</div>
-</div></div></div><div class="slick-slide slick-cloned" data-slick-index="-1" id="" aria-hidden="true" tabindex="-1" style={{width: "312px"}}><div><div class="single-testimonial-style3" style={{width: "100%", display: "inlineBlock"}}>
-<div class="open-div">
-<p>I believe my success is majorly attributed to the rigorous curriculum of the CL-LST course and the competitive culture of the coaching center, which never let me settle and motivated me to move forward. My mentors helped me with the mental part of the exam as well.</p>
-</div>
-<div class="inner-content">
-<div class="client-info">
-<div class="image"> <img src="assets/img/top-achievers/Preeyal-Seghal.webp"/> </div>
-<div class="title">
-AILET- AIR <span>12</span>
-</div>
-<h3>Preeyal Seghal</h3>
-<p><strong>CL Id - 30260949</strong></p>
-</div>
-<div></div>
-</div>
-</div></div></div><div class="slick-slide" data-slick-index="0" aria-hidden="true" style={{width: "312px"}} tabindex="-1"><div><div class="single-testimonial-style3" style={{width: "100%", display: "inlineBlock"}}>
-<div class="open-div">
-<p>A friend recommended CL-LST to me. Although I started late compared to others, fortunately, my first
-class was with one of my favorite teachers, which made everything easier. With the amount of support I
-got from the institute at all stages of my journey, I was able to ace the exam.</p>
-</div>
-<div class="inner-content">
-<div class="client-info">
-<div class="image"> <img src="assets/img/top-achievers/Pradhyot-Shah.webp"/> </div>
-<div class="title">
-CLAT- AIR <span>2</span>
-</div>
-<h3>Pradhyot Shah</h3>
-<p><strong>CL Id - 30661072</strong></p>
-</div>
-<div></div>
-</div>
-</div></div></div><div class="slick-slide" data-slick-index="1" aria-hidden="true" style={{width: "312px"}} tabindex="-1"><div><div class="single-testimonial-style3" style={{width: "100%", display: "inlineBlock"}}>
-<div class="open-div">
-<p>I was confident about my preparation, but never expected to secure rank 4 in CLAT. I believe this is
-because of the adept guidance &amp; quality material provided by CL-LST, which helped me adapt to the new
-exam pattern. Despite the uncertainties, I was confident of my preparation.</p>
-</div>
-<div class="inner-content">
-<div class="client-info">
-<div class="image"> <img src="assets/img/top-achievers/Pragnya-Amireddy.webp"/> </div>
-<div class="title">
-CLAT- AIR <span>4</span>
-</div>
-<h3>Pragnya Amireddy</h3>
-<p><strong>CL Id - 11827264</strong></p>
-</div>
-<div></div>
-</div>
-</div></div></div><div class="slick-slide slick-active" data-slick-index="2" aria-hidden="false" style={{width: "312px"}} tabindex="-1"><div><div class="single-testimonial-style3" style={{width: "100%", display: "inlineBlock"}}>
-<div class="open-div">
-<p>I believe attempting mocks was the essential part of my strategy. I focused on analyzing the mock after
-each attempt, which made me realize my mistakes, and then helped me capitalize on the learnings after
-each attempt, which was aided by guidance from CL-LST faculties.</p>
-</div>
-<div class="inner-content">
-<div class="client-info">
-<div class="image"> <img src="assets/img/top-achievers/Ashutosh-Kar.webp"/> </div>
-<div class="title">
-CLAT- AIR <span>10</span>
-</div>
-<h3>Ashutosh Kar</h3>
-<p><strong>CL Id - 11913164</strong></p>
-</div>
-<div></div>
-</div>
-</div></div></div><div class="slick-slide slick-current slick-active slick-center" data-slick-index="3" aria-hidden="false" style={{width: "312px"}}><div><div class="single-testimonial-style3" style={{width: "100%", display: "inlineBlock"}}>
-<div class="open-div">
-<p>I joined CL-LST around March after my 11th exams. The entire curriculum was quite comprehensive, aided
-by well-versed faculties at the center. I was highly satisfied with the faculty, as they were available
-to resolve my queries at any time of the day.</p>
-</div>
-<div class="inner-content">
-<div class="client-info">
-<div class="image"> <img src="assets/img/top-achievers/Diya-Agrawal.webp"/> </div>
-<div class="title">
-AILET- AIR <span>1</span>
-</div>
-<h3>Diya Agrawal</h3>
-<p><strong>CL Id - 30262917</strong></p>
-</div>
-<div></div>
-</div>
-</div></div></div><div class="slick-slide slick-active" data-slick-index="4" aria-hidden="false" style={{width: "312px"}}><div><div class="single-testimonial-style3" style={{width: "100%", display: "inlineBlock"}}>
-<div class="open-div">
-<p>I always looked forward to the Quant &amp; English classes of CL-LST. The faculty helped us to enjoy the
-preparation process rather than just cracking an exam. It helped me keep my cool for the AILET exam even
-when my CLAT exam did not go as I expected.</p>
-</div>
-<div class="inner-content">
-<div class="client-info">
-<div class="image"> <img src="assets/img/top-achievers/Nandita-Matolli.webp"/> </div>
-<div class="title">
-AILET- AIR <span>3</span>
-</div>
-<h3>Nandita Matolli </h3>
-<p><strong>CL Id - 30661355</strong></p>
-</div>
-<div></div>
-</div>
-</div></div></div><div class="slick-slide" data-slick-index="5" aria-hidden="true" style={{width: "312px"}}><div><div class="single-testimonial-style3" style={{width: "100%", display: "inlineBlock"}}>
-<div class="open-div">
-<p>I took the 2-year online course with LST. The faculty and the comprehensive study material, especially
-monthly GK magazines, helped me a lot. Attempting mocks regularly &amp; comprehensively analyzing them
-contributed to 25-40% growth in my marks. It reflected in the exam as well.</p>
-</div>
-<div class="inner-content">
-<div class="client-info">
-<div class="image"> <img src="assets/img/top-achievers/Aanya-Dhandha.webp"/> </div>
-<div class="title">
-AILET- AIR <span>4</span>
-</div>
-<h3>Aanya Dhandha </h3>
-<p><strong>CL Id - 11947087</strong></p>
-</div>
-<div></div>
-</div>
-</div></div></div><div class="slick-slide" data-slick-index="6" aria-hidden="true" style={{width: "312px"}} tabindex="-1"><div><div class="single-testimonial-style3" style={{width: "100%", display: "inlineBlock"}}>
-<div class="open-div">
-<p>Law Entrance Examinations require consistent practice, clarity on approach to problem-solving, and
-adequate guidance. With each mock I attempted, I nurtured the habit of problem-solving from the
-examiner's perspective. CL-LST faculties were always there to guide me during this process.</p>
-</div>
-<div class="inner-content">
-<div class="client-info">
-<div class="image"> <img src="assets/img/top-achievers/Divas-Upadhyay.webp"/> </div>
-<div class="title">
-AILET- AIR <span>6</span>
-</div>
-<h3>Divas Upadhyay</h3>
-<p><strong>CL Id - 11901292</strong></p>
-</div>
-<div></div>
-</div>
-</div></div></div><div class="slick-slide" data-slick-index="7" aria-hidden="true" style={{width: "312px"}} tabindex="-1"><div><div class="single-testimonial-style3" style={{width: "100%", display: "inlineBlock"}}>
-<div class="open-div">
-<p>I believe my success is majorly attributed to the rigorous curriculum of the CL-LST course and the competitive culture of the coaching center, which never let me settle and motivated me to move forward. My mentors helped me with the mental part of the exam as well.</p>
-</div>
-<div class="inner-content">
-<div class="client-info">
-<div class="image"> <img src="assets/img/top-achievers/Preeyal-Seghal.webp"/> </div>
-<div class="title">
-AILET- AIR <span>12</span>
-</div>
-<h3>Preeyal Seghal</h3>
-<p><strong>CL Id - 30260949</strong></p>
-</div>
-<div></div>
-</div>
-</div></div></div><div class="slick-slide slick-cloned" data-slick-index="8" id="" aria-hidden="true" tabindex="-1" style={{width: "312px"}}><div><div class="single-testimonial-style3" style={{width: "100%", display: "inlineBlock"}}>
-<div class="open-div">
-<p>A friend recommended CL-LST to me. Although I started late compared to others, fortunately, my first
-class was with one of my favorite teachers, which made everything easier. With the amount of support I
-got from the institute at all stages of my journey, I was able to ace the exam.</p>
-</div>
-<div class="inner-content">
-<div class="client-info">
-<div class="image"> <img src="assets/img/top-achievers/Pradhyot-Shah.webp"/> </div>
-<div class="title">
-CLAT- AIR <span>2</span>
-</div>
-<h3>Pradhyot Shah</h3>
-<p><strong>CL Id - 30661072</strong></p>
-</div>
-<div></div>
-</div>
-</div></div></div><div class="slick-slide slick-cloned" data-slick-index="9" id="" aria-hidden="true" tabindex="-1" style={{width: "312px"}}><div><div class="single-testimonial-style3" style={{width: "100%", display: "inlineBlock"}}>
-<div class="open-div">
-<p>I was confident about my preparation, but never expected to secure rank 4 in CLAT. I believe this is
-because of the adept guidance &amp; quality material provided by CL-LST, which helped me adapt to the new
-exam pattern. Despite the uncertainties, I was confident of my preparation.</p>
-</div>
-<div class="inner-content">
-<div class="client-info">
-<div class="image"> <img src="assets/img/top-achievers/Pragnya-Amireddy.webp"/> </div>
-<div class="title">
-CLAT- AIR <span>4</span>
-</div>
-<h3>Pragnya Amireddy</h3>
-<p><strong>CL Id - 11827264</strong></p>
-</div>
-<div></div>
-</div>
-</div></div></div><div class="slick-slide slick-cloned" data-slick-index="10" id="" aria-hidden="true" tabindex="-1" style={{width: "312px"}}><div><div class="single-testimonial-style3" style={{width: "100%", display: "inlineBlock"}}>
-<div class="open-div">
-<p>I believe attempting mocks was the essential part of my strategy. I focused on analyzing the mock after
-each attempt, which made me realize my mistakes, and then helped me capitalize on the learnings after
-each attempt, which was aided by guidance from CL-LST faculties.</p>
-</div>
-<div class="inner-content">
-<div class="client-info">
-<div class="image"> <img src="assets/img/top-achievers/Ashutosh-Kar.webp"/> </div>
-<div class="title">
-CLAT- AIR <span>10</span>
-</div>
-<h3>Ashutosh Kar</h3>
-<p><strong>CL Id - 11913164</strong></p>
-</div>
-<div></div>
-</div>
-</div></div></div><div class="slick-slide slick-cloned" data-slick-index="11" id="" aria-hidden="true" tabindex="-1" style={{width: "312px"}}><div><div class="single-testimonial-style3" style={{width: "100%", display: "inlineBlock"}}>
-<div class="open-div">
-<p>I joined CL-LST around March after my 11th exams. The entire curriculum was quite comprehensive, aided
-by well-versed faculties at the center. I was highly satisfied with the faculty, as they were available
-to resolve my queries at any time of the day.</p>
-</div>
-<div class="inner-content">
-<div class="client-info">
-<div class="image"> <img src="assets/img/top-achievers/Diya-Agrawal.webp"/> </div>
-<div class="title">
-AILET- AIR <span>1</span>
-</div>
-<h3>Diya Agrawal</h3>
-<p><strong>CL Id - 30262917</strong></p>
-</div>
-<div></div>
-</div>
-</div></div></div><div class="slick-slide slick-cloned" data-slick-index="12" id="" aria-hidden="true" tabindex="-1" style={{width: "312px"}}><div><div class="single-testimonial-style3" style={{width: "100%", display: "inlineBlock"}}>
-<div class="open-div">
-<p>I always looked forward to the Quant &amp; English classes of CL-LST. The faculty helped us to enjoy the
-preparation process rather than just cracking an exam. It helped me keep my cool for the AILET exam even
-when my CLAT exam did not go as I expected.</p>
-</div>
-<div class="inner-content">
-<div class="client-info">
-<div class="image"> <img src="assets/img/top-achievers/Nandita-Matolli.webp"/> </div>
-<div class="title">
-AILET- AIR <span>3</span>
-</div>
-<h3>Nandita Matolli </h3>
-<p><strong>CL Id - 30661355</strong></p>
-</div>
-<div></div>
-</div>
-</div></div></div><div class="slick-slide slick-cloned" data-slick-index="13" id="" aria-hidden="true" tabindex="-1" style={{width: "312px"}}><div><div class="single-testimonial-style3" style={{width: "100%", display: "inlineBlock"}}>
-<div class="open-div">
-<p>I took the 2-year online course with LST. The faculty and the comprehensive study material, especially
-monthly GK magazines, helped me a lot. Attempting mocks regularly &amp; comprehensively analyzing them
-contributed to 25-40% growth in my marks. It reflected in the exam as well.</p>
-</div>
-<div class="inner-content">
-<div class="client-info">
-<div class="image"> <img src="assets/img/top-achievers/Aanya-Dhandha.webp"/> </div>
-<div class="title">
-AILET- AIR <span>4</span>
-</div>
-<h3>Aanya Dhandha </h3>
-<p><strong>CL Id - 11947087</strong></p>
-</div>
-<div></div>
-</div>
-</div></div></div><div class="slick-slide slick-cloned" data-slick-index="14" id="" aria-hidden="true" tabindex="-1" style={{width: "312px"}}><div><div class="single-testimonial-style3" style={{width: "100%", display: "inlineBlock"}}>
-<div class="open-div">
-<p>Law Entrance Examinations require consistent practice, clarity on approach to problem-solving, and
-adequate guidance. With each mock I attempted, I nurtured the habit of problem-solving from the
-examiner's perspective. CL-LST faculties were always there to guide me during this process.</p>
-</div>
-<div class="inner-content">
-<div class="client-info">
-<div class="image"> <img src="assets/img/top-achievers/Divas-Upadhyay.webp"/> </div>
-<div class="title">
-AILET- AIR <span>6</span>
-</div>
-<h3>Divas Upadhyay</h3>
-<p><strong>CL Id - 11901292</strong></p>
-</div>
-<div></div>
-</div>
-</div></div></div><div class="slick-slide slick-cloned" data-slick-index="15" id="" aria-hidden="true" tabindex="-1" style={{width: "312px"}}><div><div class="single-testimonial-style3" style={{width: "100%", display: "inlineBlock"}}>
-<div class="open-div">
-<p>I believe my success is majorly attributed to the rigorous curriculum of the CL-LST course and the competitive culture of the coaching center, which never let me settle and motivated me to move forward. My mentors helped me with the mental part of the exam as well.</p>
-</div>
-<div class="inner-content">
-<div class="client-info">
-<div class="image"> <img src="assets/img/top-achievers/Preeyal-Seghal.webp"/> </div>
-<div class="title">
-AILET- AIR <span>12</span>
-</div>
-<h3>Preeyal Seghal</h3>
-<p><strong>CL Id - 30260949</strong></p>
-</div>
-<div></div>
-</div>
-</div></div></div></div></div><button class="slick-next slick-arrow" aria-label="Next" type="button" >Next</button></div>
-</div>
+          <div class="testmonials-pull">
+            <div class="choose-why slider slick-initialized slick-slider"><button class="slick-prev slick-arrow" aria-label="Previous" type="button" >Previous</button><div class="slick-list draggable" style={{ padding: "0px 120px" }}><div class="slick-track" style={{ opacity: "1", width: "6840px", transform: "translate3d(-2052px, 0px, 0px)" }}><div class="slick-slide slick-cloned" data-slick-index="-4" id="" aria-hidden="true" tabindex="-1" style={{ width: "312px" }}><div><div class="single-testimonial-style3" style={{ width: "100%", display: "inlineBlock" }}>
+              <div class="open-div">
+                <p>I always looked forward to the Quant &amp; English classes of CL-LST. The faculty helped us to enjoy the
+                  preparation process rather than just cracking an exam. It helped me keep my cool for the AILET exam even
+                  when my CLAT exam did not go as I expected.</p>
+              </div>
+              <div class="inner-content">
+                <div class="client-info">
+                  <div class="image"> <img src="assets/img/top-achievers/Nandita-Matolli.webp" /> </div>
+                  <div class="title">
+                    AILET- AIR <span>3</span>
+                  </div>
+                  <h3>Nandita Matolli </h3>
+                  <p><strong>CL Id - 30661355</strong></p>
+                </div>
+                <div></div>
+              </div>
+            </div></div></div><div class="slick-slide slick-cloned" data-slick-index="-3" id="" aria-hidden="true" tabindex="-1" style={{ width: "312px" }}><div><div class="single-testimonial-style3" style={{ width: "100%", display: "inlineBlock" }}>
+              <div class="open-div">
+                <p>I took the 2-year online course with LST. The faculty and the comprehensive study material, especially
+                  monthly GK magazines, helped me a lot. Attempting mocks regularly &amp; comprehensively analyzing them
+                  contributed to 25-40% growth in my marks. It reflected in the exam as well.</p>
+              </div>
+              <div class="inner-content">
+                <div class="client-info">
+                  <div class="image"> <img src="assets/img/top-achievers/Aanya-Dhandha.webp" /> </div>
+                  <div class="title">
+                    AILET- AIR <span>4</span>
+                  </div>
+                  <h3>Aanya Dhandha </h3>
+                  <p><strong>CL Id - 11947087</strong></p>
+                </div>
+                <div></div>
+              </div>
+            </div></div></div><div class="slick-slide slick-cloned" data-slick-index="-2" id="" aria-hidden="true" tabindex="-1" style={{ width: "312px" }}><div><div class="single-testimonial-style3" style={{ width: "100%", display: "inlineBlock" }}>
+              <div class="open-div">
+                <p>Law Entrance Examinations require consistent practice, clarity on approach to problem-solving, and
+                  adequate guidance. With each mock I attempted, I nurtured the habit of problem-solving from the
+                  examiner's perspective. CL-LST faculties were always there to guide me during this process.</p>
+              </div>
+              <div class="inner-content">
+                <div class="client-info">
+                  <div class="image"> <img src="assets/img/top-achievers/Divas-Upadhyay.webp" /> </div>
+                  <div class="title">
+                    AILET- AIR <span>6</span>
+                  </div>
+                  <h3>Divas Upadhyay</h3>
+                  <p><strong>CL Id - 11901292</strong></p>
+                </div>
+                <div></div>
+              </div>
+            </div></div></div><div class="slick-slide slick-cloned" data-slick-index="-1" id="" aria-hidden="true" tabindex="-1" style={{ width: "312px" }}><div><div class="single-testimonial-style3" style={{ width: "100%", display: "inlineBlock" }}>
+              <div class="open-div">
+                <p>I believe my success is majorly attributed to the rigorous curriculum of the CL-LST course and the competitive culture of the coaching center, which never let me settle and motivated me to move forward. My mentors helped me with the mental part of the exam as well.</p>
+              </div>
+              <div class="inner-content">
+                <div class="client-info">
+                  <div class="image"> <img src="assets/img/top-achievers/Preeyal-Seghal.webp" /> </div>
+                  <div class="title">
+                    AILET- AIR <span>12</span>
+                  </div>
+                  <h3>Preeyal Seghal</h3>
+                  <p><strong>CL Id - 30260949</strong></p>
+                </div>
+                <div></div>
+              </div>
+            </div></div></div><div class="slick-slide" data-slick-index="0" aria-hidden="true" style={{ width: "312px" }} tabindex="-1"><div><div class="single-testimonial-style3" style={{ width: "100%", display: "inlineBlock" }}>
+              <div class="open-div">
+                <p>A friend recommended CL-LST to me. Although I started late compared to others, fortunately, my first
+                  class was with one of my favorite teachers, which made everything easier. With the amount of support I
+                  got from the institute at all stages of my journey, I was able to ace the exam.</p>
+              </div>
+              <div class="inner-content">
+                <div class="client-info">
+                  <div class="image"> <img src="assets/img/top-achievers/Pradhyot-Shah.webp" /> </div>
+                  <div class="title">
+                    CLAT- AIR <span>2</span>
+                  </div>
+                  <h3>Pradhyot Shah</h3>
+                  <p><strong>CL Id - 30661072</strong></p>
+                </div>
+                <div></div>
+              </div>
+            </div></div></div><div class="slick-slide" data-slick-index="1" aria-hidden="true" style={{ width: "312px" }} tabindex="-1"><div><div class="single-testimonial-style3" style={{ width: "100%", display: "inlineBlock" }}>
+              <div class="open-div">
+                <p>I was confident about my preparation, but never expected to secure rank 4 in CLAT. I believe this is
+                  because of the adept guidance &amp; quality material provided by CL-LST, which helped me adapt to the new
+                  exam pattern. Despite the uncertainties, I was confident of my preparation.</p>
+              </div>
+              <div class="inner-content">
+                <div class="client-info">
+                  <div class="image"> <img src="assets/img/top-achievers/Pragnya-Amireddy.webp" /> </div>
+                  <div class="title">
+                    CLAT- AIR <span>4</span>
+                  </div>
+                  <h3>Pragnya Amireddy</h3>
+                  <p><strong>CL Id - 11827264</strong></p>
+                </div>
+                <div></div>
+              </div>
+            </div></div></div><div class="slick-slide slick-active" data-slick-index="2" aria-hidden="false" style={{ width: "312px" }} tabindex="-1"><div><div class="single-testimonial-style3" style={{ width: "100%", display: "inlineBlock" }}>
+              <div class="open-div">
+                <p>I believe attempting mocks was the essential part of my strategy. I focused on analyzing the mock after
+                  each attempt, which made me realize my mistakes, and then helped me capitalize on the learnings after
+                  each attempt, which was aided by guidance from CL-LST faculties.</p>
+              </div>
+              <div class="inner-content">
+                <div class="client-info">
+                  <div class="image"> <img src="assets/img/top-achievers/Ashutosh-Kar.webp" /> </div>
+                  <div class="title">
+                    CLAT- AIR <span>10</span>
+                  </div>
+                  <h3>Ashutosh Kar</h3>
+                  <p><strong>CL Id - 11913164</strong></p>
+                </div>
+                <div></div>
+              </div>
+            </div></div></div><div class="slick-slide slick-current slick-active slick-center" data-slick-index="3" aria-hidden="false" style={{ width: "312px" }}><div><div class="single-testimonial-style3" style={{ width: "100%", display: "inlineBlock" }}>
+              <div class="open-div">
+                <p>I joined CL-LST around March after my 11th exams. The entire curriculum was quite comprehensive, aided
+                  by well-versed faculties at the center. I was highly satisfied with the faculty, as they were available
+                  to resolve my queries at any time of the day.</p>
+              </div>
+              <div class="inner-content">
+                <div class="client-info">
+                  <div class="image"> <img src="assets/img/top-achievers/Diya-Agrawal.webp" /> </div>
+                  <div class="title">
+                    AILET- AIR <span>1</span>
+                  </div>
+                  <h3>Diya Agrawal</h3>
+                  <p><strong>CL Id - 30262917</strong></p>
+                </div>
+                <div></div>
+              </div>
+            </div></div></div><div class="slick-slide slick-active" data-slick-index="4" aria-hidden="false" style={{ width: "312px" }}><div><div class="single-testimonial-style3" style={{ width: "100%", display: "inlineBlock" }}>
+              <div class="open-div">
+                <p>I always looked forward to the Quant &amp; English classes of CL-LST. The faculty helped us to enjoy the
+                  preparation process rather than just cracking an exam. It helped me keep my cool for the AILET exam even
+                  when my CLAT exam did not go as I expected.</p>
+              </div>
+              <div class="inner-content">
+                <div class="client-info">
+                  <div class="image"> <img src="assets/img/top-achievers/Nandita-Matolli.webp" /> </div>
+                  <div class="title">
+                    AILET- AIR <span>3</span>
+                  </div>
+                  <h3>Nandita Matolli </h3>
+                  <p><strong>CL Id - 30661355</strong></p>
+                </div>
+                <div></div>
+              </div>
+            </div></div></div><div class="slick-slide" data-slick-index="5" aria-hidden="true" style={{ width: "312px" }}><div><div class="single-testimonial-style3" style={{ width: "100%", display: "inlineBlock" }}>
+              <div class="open-div">
+                <p>I took the 2-year online course with LST. The faculty and the comprehensive study material, especially
+                  monthly GK magazines, helped me a lot. Attempting mocks regularly &amp; comprehensively analyzing them
+                  contributed to 25-40% growth in my marks. It reflected in the exam as well.</p>
+              </div>
+              <div class="inner-content">
+                <div class="client-info">
+                  <div class="image"> <img src="assets/img/top-achievers/Aanya-Dhandha.webp" /> </div>
+                  <div class="title">
+                    AILET- AIR <span>4</span>
+                  </div>
+                  <h3>Aanya Dhandha </h3>
+                  <p><strong>CL Id - 11947087</strong></p>
+                </div>
+                <div></div>
+              </div>
+            </div></div></div><div class="slick-slide" data-slick-index="6" aria-hidden="true" style={{ width: "312px" }} tabindex="-1"><div><div class="single-testimonial-style3" style={{ width: "100%", display: "inlineBlock" }}>
+              <div class="open-div">
+                <p>Law Entrance Examinations require consistent practice, clarity on approach to problem-solving, and
+                  adequate guidance. With each mock I attempted, I nurtured the habit of problem-solving from the
+                  examiner's perspective. CL-LST faculties were always there to guide me during this process.</p>
+              </div>
+              <div class="inner-content">
+                <div class="client-info">
+                  <div class="image"> <img src="assets/img/top-achievers/Divas-Upadhyay.webp" /> </div>
+                  <div class="title">
+                    AILET- AIR <span>6</span>
+                  </div>
+                  <h3>Divas Upadhyay</h3>
+                  <p><strong>CL Id - 11901292</strong></p>
+                </div>
+                <div></div>
+              </div>
+            </div></div></div><div class="slick-slide" data-slick-index="7" aria-hidden="true" style={{ width: "312px" }} tabindex="-1"><div><div class="single-testimonial-style3" style={{ width: "100%", display: "inlineBlock" }}>
+              <div class="open-div">
+                <p>I believe my success is majorly attributed to the rigorous curriculum of the CL-LST course and the competitive culture of the coaching center, which never let me settle and motivated me to move forward. My mentors helped me with the mental part of the exam as well.</p>
+              </div>
+              <div class="inner-content">
+                <div class="client-info">
+                  <div class="image"> <img src="assets/img/top-achievers/Preeyal-Seghal.webp" /> </div>
+                  <div class="title">
+                    AILET- AIR <span>12</span>
+                  </div>
+                  <h3>Preeyal Seghal</h3>
+                  <p><strong>CL Id - 30260949</strong></p>
+                </div>
+                <div></div>
+              </div>
+            </div></div></div><div class="slick-slide slick-cloned" data-slick-index="8" id="" aria-hidden="true" tabindex="-1" style={{ width: "312px" }}><div><div class="single-testimonial-style3" style={{ width: "100%", display: "inlineBlock" }}>
+              <div class="open-div">
+                <p>A friend recommended CL-LST to me. Although I started late compared to others, fortunately, my first
+                  class was with one of my favorite teachers, which made everything easier. With the amount of support I
+                  got from the institute at all stages of my journey, I was able to ace the exam.</p>
+              </div>
+              <div class="inner-content">
+                <div class="client-info">
+                  <div class="image"> <img src="assets/img/top-achievers/Pradhyot-Shah.webp" /> </div>
+                  <div class="title">
+                    CLAT- AIR <span>2</span>
+                  </div>
+                  <h3>Pradhyot Shah</h3>
+                  <p><strong>CL Id - 30661072</strong></p>
+                </div>
+                <div></div>
+              </div>
+            </div></div></div><div class="slick-slide slick-cloned" data-slick-index="9" id="" aria-hidden="true" tabindex="-1" style={{ width: "312px" }}><div><div class="single-testimonial-style3" style={{ width: "100%", display: "inlineBlock" }}>
+              <div class="open-div">
+                <p>I was confident about my preparation, but never expected to secure rank 4 in CLAT. I believe this is
+                  because of the adept guidance &amp; quality material provided by CL-LST, which helped me adapt to the new
+                  exam pattern. Despite the uncertainties, I was confident of my preparation.</p>
+              </div>
+              <div class="inner-content">
+                <div class="client-info">
+                  <div class="image"> <img src="assets/img/top-achievers/Pragnya-Amireddy.webp" /> </div>
+                  <div class="title">
+                    CLAT- AIR <span>4</span>
+                  </div>
+                  <h3>Pragnya Amireddy</h3>
+                  <p><strong>CL Id - 11827264</strong></p>
+                </div>
+                <div></div>
+              </div>
+            </div></div></div><div class="slick-slide slick-cloned" data-slick-index="10" id="" aria-hidden="true" tabindex="-1" style={{ width: "312px" }}><div><div class="single-testimonial-style3" style={{ width: "100%", display: "inlineBlock" }}>
+              <div class="open-div">
+                <p>I believe attempting mocks was the essential part of my strategy. I focused on analyzing the mock after
+                  each attempt, which made me realize my mistakes, and then helped me capitalize on the learnings after
+                  each attempt, which was aided by guidance from CL-LST faculties.</p>
+              </div>
+              <div class="inner-content">
+                <div class="client-info">
+                  <div class="image"> <img src="assets/img/top-achievers/Ashutosh-Kar.webp" /> </div>
+                  <div class="title">
+                    CLAT- AIR <span>10</span>
+                  </div>
+                  <h3>Ashutosh Kar</h3>
+                  <p><strong>CL Id - 11913164</strong></p>
+                </div>
+                <div></div>
+              </div>
+            </div></div></div><div class="slick-slide slick-cloned" data-slick-index="11" id="" aria-hidden="true" tabindex="-1" style={{ width: "312px" }}><div><div class="single-testimonial-style3" style={{ width: "100%", display: "inlineBlock" }}>
+              <div class="open-div">
+                <p>I joined CL-LST around March after my 11th exams. The entire curriculum was quite comprehensive, aided
+                  by well-versed faculties at the center. I was highly satisfied with the faculty, as they were available
+                  to resolve my queries at any time of the day.</p>
+              </div>
+              <div class="inner-content">
+                <div class="client-info">
+                  <div class="image"> <img src="assets/img/top-achievers/Diya-Agrawal.webp" /> </div>
+                  <div class="title">
+                    AILET- AIR <span>1</span>
+                  </div>
+                  <h3>Diya Agrawal</h3>
+                  <p><strong>CL Id - 30262917</strong></p>
+                </div>
+                <div></div>
+              </div>
+            </div></div></div><div class="slick-slide slick-cloned" data-slick-index="12" id="" aria-hidden="true" tabindex="-1" style={{ width: "312px" }}><div><div class="single-testimonial-style3" style={{ width: "100%", display: "inlineBlock" }}>
+              <div class="open-div">
+                <p>I always looked forward to the Quant &amp; English classes of CL-LST. The faculty helped us to enjoy the
+                  preparation process rather than just cracking an exam. It helped me keep my cool for the AILET exam even
+                  when my CLAT exam did not go as I expected.</p>
+              </div>
+              <div class="inner-content">
+                <div class="client-info">
+                  <div class="image"> <img src="assets/img/top-achievers/Nandita-Matolli.webp" /> </div>
+                  <div class="title">
+                    AILET- AIR <span>3</span>
+                  </div>
+                  <h3>Nandita Matolli </h3>
+                  <p><strong>CL Id - 30661355</strong></p>
+                </div>
+                <div></div>
+              </div>
+            </div></div></div><div class="slick-slide slick-cloned" data-slick-index="13" id="" aria-hidden="true" tabindex="-1" style={{ width: "312px" }}><div><div class="single-testimonial-style3" style={{ width: "100%", display: "inlineBlock" }}>
+              <div class="open-div">
+                <p>I took the 2-year online course with LST. The faculty and the comprehensive study material, especially
+                  monthly GK magazines, helped me a lot. Attempting mocks regularly &amp; comprehensively analyzing them
+                  contributed to 25-40% growth in my marks. It reflected in the exam as well.</p>
+              </div>
+              <div class="inner-content">
+                <div class="client-info">
+                  <div class="image"> <img src="assets/img/top-achievers/Aanya-Dhandha.webp" /> </div>
+                  <div class="title">
+                    AILET- AIR <span>4</span>
+                  </div>
+                  <h3>Aanya Dhandha </h3>
+                  <p><strong>CL Id - 11947087</strong></p>
+                </div>
+                <div></div>
+              </div>
+            </div></div></div><div class="slick-slide slick-cloned" data-slick-index="14" id="" aria-hidden="true" tabindex="-1" style={{ width: "312px" }}><div><div class="single-testimonial-style3" style={{ width: "100%", display: "inlineBlock" }}>
+              <div class="open-div">
+                <p>Law Entrance Examinations require consistent practice, clarity on approach to problem-solving, and
+                  adequate guidance. With each mock I attempted, I nurtured the habit of problem-solving from the
+                  examiner's perspective. CL-LST faculties were always there to guide me during this process.</p>
+              </div>
+              <div class="inner-content">
+                <div class="client-info">
+                  <div class="image"> <img src="assets/img/top-achievers/Divas-Upadhyay.webp" /> </div>
+                  <div class="title">
+                    AILET- AIR <span>6</span>
+                  </div>
+                  <h3>Divas Upadhyay</h3>
+                  <p><strong>CL Id - 11901292</strong></p>
+                </div>
+                <div></div>
+              </div>
+            </div></div></div><div class="slick-slide slick-cloned" data-slick-index="15" id="" aria-hidden="true" tabindex="-1" style={{ width: "312px" }}><div><div class="single-testimonial-style3" style={{ width: "100%", display: "inlineBlock" }}>
+              <div class="open-div">
+                <p>I believe my success is majorly attributed to the rigorous curriculum of the CL-LST course and the competitive culture of the coaching center, which never let me settle and motivated me to move forward. My mentors helped me with the mental part of the exam as well.</p>
+              </div>
+              <div class="inner-content">
+                <div class="client-info">
+                  <div class="image"> <img src="assets/img/top-achievers/Preeyal-Seghal.webp" /> </div>
+                  <div class="title">
+                    AILET- AIR <span>12</span>
+                  </div>
+                  <h3>Preeyal Seghal</h3>
+                  <p><strong>CL Id - 30260949</strong></p>
+                </div>
+                <div></div>
+              </div>
+            </div></div></div></div></div><button class="slick-next slick-arrow" aria-label="Next" type="button" >Next</button></div>
+          </div>
 
 
 
-</div>
-</section>
+        </div>
+      </section>
 
 
 
@@ -1264,7 +1270,7 @@ AILET- AIR <span>12</span>
 
 
 
-      <Faqs />
+      <Faqs f="Home" />
       <Footer />
 
       <section className="dfz-bg">
@@ -1281,7 +1287,7 @@ AILET- AIR <span>12</span>
 
 
 
-      
+
 
 
 

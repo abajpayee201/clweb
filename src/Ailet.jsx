@@ -431,29 +431,7 @@ function Ailet() {
                 </div>
             </section>
 
-            <section class="faqs">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <h2 class="text-center">Frequently asked questions</h2>
-
-                            <div class="accordion" id="accordionExample">
-
-
-
-
-
-
-
-                                <div class='accordion-item'><h2 class='accordion-header'><button class='accordion-button collapsed' type='button' data-bs-toggle='collapse' data-bs-target='#collapse131' aria-expanded='true' aria-controls='collapse131'>When will NLU Delhi conduct the AILET 2025?</button></h2><div id='collapse131' class='accordion-collapse collapse' data-bs-parent='#accordionExample'><div class='accordion-body'>The AILET test 2025 is anticipated to take place in the second week of December 2024.</div></div></div><div class='accordion-item'><h2 class='accordion-header'><button class='accordion-button collapsed' type='button' data-bs-toggle='collapse' data-bs-target='#collapse132' aria-expanded='true' aria-controls='collapse132'>Does NLU Delhi accept CLAT?</button></h2><div id='collapse132' class='accordion-collapse collapse' data-bs-parent='#accordionExample'><div class='accordion-body'>It does not accept the CLAT for admission. NLU Delhi administers its own All India Law Entrance Test (AILET). Every year, over 65,000 students take the CLAT, whereas approximately 18,000 candidates take the AILET test.</div></div></div><div class='accordion-item'><h2 class='accordion-header'><button class='accordion-button collapsed' type='button' data-bs-toggle='collapse' data-bs-target='#collapse84' aria-expanded='true' aria-controls='collapse84'>How to get admission into NLU Delhi?</button></h2><div id='collapse84' class='accordion-collapse collapse' data-bs-parent='#accordionExample'><div class='accordion-body'>NLU Delhi is one of the two NLUs that conduct their separate exams. To get admission into NLU Delhi, a candidate must take the All India Law Entrance Test(AILET). </div></div></div><div class='accordion-item'><h2 class='accordion-header'><button class='accordion-button collapsed' type='button' data-bs-toggle='collapse' data-bs-target='#collapse133' aria-expanded='true' aria-controls='collapse133'>Is NLU Delhi difficult to obtain admission into?</button></h2><div id='collapse133' class='accordion-collapse collapse' data-bs-parent='#accordionExample'><div class='accordion-body'>NLU Delhi is classified among the top three NLUs in the NIRF Ranking, making entrance more difficult as the competition is cutthroat.</div></div></div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-
+            <Faqs f="Ailet" />
 
             <Footer />
 
